@@ -10,7 +10,6 @@ source:
   sha256: 85f807d3846c7691855a68ed7ff6ee40654b72b997f5b1199e6310a1e19d1cd5
 
 build:
-  skip: true  # [py<39]
   number: 1
   script:
     - del fastparquet\*.c  # [win]      
